@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Video</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme31.css">
+</head>
+<body>
+    <div class="form-body on-top-mobile">
+        <div class="website-logo">
+            <a href="index.php">
+                <div class="logo">
+                    <img class="logo-size" src="images/logo-black.svg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder simple-info">
+                    <div class="mb-5">
+                        <div class="type-animation">
+                            <h2 class="mb-2 animated">Stock Video</h2>
+                        </div>
+                        <h3 class="mb-4"><i class="font-weight-light">Upload your content</i></h3>
+                    </div>
+                    <div><p>Fill the form, make your offer<br></p></div>
+                </div>
+                <div class="bottom-view"><p><small class="font-weight-light"><p>&copy;<script>document.write(new Date().getFullYear());</script> <span> TroVato HUB </span> Developed <i class="fa fa-heart"></i> by <a href="https://www.trodev.com">Trodev</a></p></small></p></div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Upload Stock Video</h3>
+                        <p class="text-black">Upload all product details and make sure to complete the form</p>
+                        <form class="container-custom-padding" action="insert_data/insert_stockvideo.php" method="post">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_name" placeholder="Product name" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_code" placeholder="Product code" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_price" placeholder="Product price" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_license" placeholder="Product license" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="support_device" placeholder="Support Device" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_file_size" placeholder="Product file size" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="live_link" placeholder="Live link" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="product_image_link" placeholder="Product image link" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="zip_link" placeholder="Zip link" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control" name="zip_password" placeholder="Zip password" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea class="form-control" name="product_description" placeholder="Product Description" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row top-padding">
+                                <div class="col-12 col-sm-6">
+                                    <!-- <input type="checkbox" id="chk1" required><label for="chk1">I agree on terms & conditions of iofrm</label> -->
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-button text-right">
+                                        <button id="submit" type="submit" class="ibtn less-padding">Upload File</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
