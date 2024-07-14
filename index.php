@@ -329,7 +329,7 @@
         </div>
         <ul>
             <li><img src="bg_image/dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </li>
-            <li><img src="bg_image/reading-book (1).png" alt="">&nbsp;<span>Students</span> </li>
+            <li><a href="student/index.php"><img src="bg_image/reading-book (1).png" alt="">&nbsp;<span>Students</span></a></li>
             <li><a href="teachers/index.php"><img src="bg_image/teacher2.png" alt="">&nbsp;<span>Teachers</span></a></li>
             <li><img src="bg_image/school.png" alt="">&nbsp;<span>Schools</span> </li>
             <li><a href="income/index.php"><img src="bg_image/payment.png" alt="">&nbsp;<span>Income</span></a></li>
